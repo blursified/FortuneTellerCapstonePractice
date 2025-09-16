@@ -1,4 +1,8 @@
-let fortunes = ["no", "yes", "maybe", "probably", "unlikely", "idk", "definitely", "100%", "for sure", "nah"];
+let fortunes = ["Today, you will be christened with the power of 420 baguettes... use this power wisely.",
+"They won't give you up. Or let you down. Or run around and desert you.",
+"Today's a good day to set goals!",
+"You have been blessed with a random burst of luck. Be prepared."
+];
 
 // Hash function
 function cyrb128(str) {
