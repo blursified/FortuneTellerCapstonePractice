@@ -23,10 +23,44 @@
 
     <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
       <label for="namefield">Name:</label>
-      <input type="text" id="namefield" name="name" placeholder="your name" required>
+      <input type="text" id="namefield" name="name" placeholder="Your name" required>
+      <br>
       <br>
       <label for="questionfield">Question:</label>
-      <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
+      <input type="text" id="questionfield" name="question" placeholder="Are you over 18?" value="">
+      <br>
+      <br>
+      <label for="secrets">For the most accurate fortune, enter a secret: </label> <br>
+      <input type="password" id="passwordfield" name="secrets" placeholder="Enter your secret...:" value="">
+      <br>
+      <br>
+      <label for="emailfield">Send yourself your results...</label> 
+      <br>
+      <input type="email" name="emailfield" placeholder="Enter email" value="">
+      <br>
+      <br>
+      <label for="onechoice">What are you thinking about?</label>
+      <br>
+      <form>
+      <input type="radio" name="onechoice" value="Uno">Baguette <br>
+      <input type="radio" name="onechoice" value="Dos">Croissant <br>
+      <input type="radio" name="onechoice" value="Tres">Why would I be thinking about bread? <br>
+      </form>
+      <br>
+      <br>
+      <label for="dropdown">How are you feeling?</label>
+      <br>
+      <select>
+        <option value="good" name="dropdown">Great!</option>
+        <option value="bad" name="dropdown">Not the best.</option>
+        <option value="no" name="dropdown">I'm not putting that on an online quiz!</option>
+      </select>
+      <br>
+      <br>
+      <label for="yes">Any last thoughts?</label>
+      <br>
+      <textarea name="yes" cols="30" rows="3" value="thoughts" placeholder="type here"></textarea>
+      <br>
       <br>
       <input type="submit">
     </form>
